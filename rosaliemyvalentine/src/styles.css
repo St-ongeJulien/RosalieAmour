@@ -223,3 +223,8 @@ h1{
 .card.locked .cardInner{
   filter: saturate(.85);
 }
+
+.card.locked .cardFront{
+  opacity: 0.85;
+}
+
