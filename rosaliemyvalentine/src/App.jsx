@@ -108,7 +108,8 @@ function Card({ data, revealed, locked, onReveal, index, todayYYYYMMDD }) {
     >
       <div className="cardInner">
         <div className="cardFront">
-          <div className="bigLetter">{data.letter}</div>
+          <div className="bigLetter"> {locked && !revealed ? "✉️" : data.letter} </div>
+
 
           {locked && !revealed ? (
             <>
