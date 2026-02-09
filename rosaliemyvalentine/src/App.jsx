@@ -199,7 +199,7 @@ export default function App() {
     <div className="page">
       <header className="header">
         <div className="badge">💌</div>
-        <h1>Ma Valentine</h1>
+        <h1>Rosalie, Ma Valentine</h1>
         <p>
           Une carte par jour, du <b>9</b> au <b>14 février 2026</b>.
         </p>
